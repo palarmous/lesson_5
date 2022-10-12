@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url(../fonts/PlayfairDisplaySC-BlackItalic.woff2) format("woff2"), url(../fonts/PlayfairDisplaySC-BlackItalic.woff) format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PlayfairDisplaySC";
+	src: url(../fonts/PlayfairDisplaySC-BoldItalic.woff2) format("woff2"), url(../fonts/PlayfairDisplaySC-BoldItalic.woff) format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PlayfairDisplaySC";
+	src: url(../fonts/PlayfairDisplaySC-Italic.woff2) format("woff2"), url(../fonts/PlayfairDisplaySC-Italic.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "PlayfairDisplaySC";
+	src: url(../fonts/PlayfairDisplaySC-Regular.woff2) format("woff2"), url(../fonts/PlayfairDisplaySC-Regular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+* {
+	font-size: 18px;
+	line-height: 1.2;
+	margin: 15px;
+}
+
+a,
+li {
+	margin: 0px;
+}
+
+header,
+footer{
+	font-family: "PlayfairDisplaySC", serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: right;
+	text-decoration: line-through;
+	text-shadow: 2.5px 2px 5px rgb(100, 7, 7);
+	/* letter-spacing: 10px; */
+}
+
+h1 {
+	font-family: "PlayfairDisplaySC", serif;
+	font-weight: 700;
+	font-size: 32px;
+	font-style: italic;
+	text-align: center;
+	text-decoration: overline underline;
+	text-shadow: 2.5px 2px 1px rgb(13, 0, 0);
+	letter-spacing: 10px;
+}
+
+h2 {
+	font-family: "PlayfairDisplaySC", serif;
+	font-weight: 700;
+	font-size: 28px;
+	font-style: italic;
+	text-align: center;
+	/* text-decoration: overline underline; */
+	text-shadow: 2.5px 2px 1px rgb(13, 0, 0);
+	letter-spacing: 10px;
+}
+
+h3 {
+	font-family: "PlayfairDisplaySC", serif;
+	font-weight: 700;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	/* text-decoration: underline; */
+	text-shadow: 2.5px 2px 1px rgb(13, 0, 0);
+	letter-spacing: 10px;
+}
+
+ul,
+ol {
+	font-family: "Montserrat", serif;
+	font-style: italic;
+}
+
+.text-blueviolet p {
+	text-shadow: 1px 4px 3px rgb(191, 197, 182);
+}
+
+.linkpage {
+	text-decoration: underline;
+	text-shadow: 1px 4px 3px rgb(153, 255, 0);
+}
+
+
+.text-dimgray ol {
+	text-decoration: line-through;
+	text-shadow: 1px 4px 3px rgb(38, 63, 1);
+}
+
+.text-dimgray p {
+	text-shadow: 1px 4px 2px rgb(255, 0, 191);
+}
+
+.text-dimgray ul {
+	text-decoration: overline;
+	text-shadow: 0px 1px 8px rgb(72, 177, 72);
+}
+
+.text {
+	text-align: center;
+	text-shadow: 2.5px 2px 5px rgb(13, 0, 0);
+}
+
+.test-site {
+	text-align: ;
+	text-shadow: 2.5px 10px 6px rgb(104, 98, 110);
+}
+
+.last-paragraph {
+	text-decoration: underline;
+	text-shadow: 2px 1px 2px rgb(0, 9, 0);
+	text-transform: capitalize;
+}
+
+.linkpage {
+	background-color: #6c1672;
+	padding: 10px 20px 50px 100px;
+}
+
+ol {
+	background-color: #8100fa;
+	padding: 40px 20px 30px;
+}
+
+ul.text {
+	background-color: aqua;
+	padding-top: 25px;
+	padding-right: 70px;
+}
+
+#element {
+	background-color: rgb(1, 18, 169);
+	padding-left: 10%;
+	padding-bottom: 5%;
+}
+
+#inf0 {
+	background-color: chocolate;
+	margin: 30px 50px 30px 70px;
+}
+
+.test {
+	background-color: rgb(255, 1, 107);
+	margin-left: 100px;
+	margin-right: 200px;
+}
+
+ul.test-site {
+	background-color: rgb(88, 219, 0);
+	padding: 3%;
+	margin: 5%;
+	width: auto;
+}
+
+#prgrph {
+	background-color: tomato;
+	padding: 5%;
+	margin: 3%;
+	width: 150%;
+}

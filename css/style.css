@@ -1,0 +1,85 @@
+header{
+	color: aqua;
+}
+
+h1,
+h2{
+	color: darkorange;
+}
+
+h3{
+	color: darksalmon;
+}
+
+.text-blueviolet{
+	color: blueviolet;
+}
+
+.linkpage,
+.page{
+	color: rgb(163, 1, 1);
+}
+
+.text.dimgray{
+	color: dimgray;
+}
+
+ol{
+	color: rgb(1, 192, 61);
+}
+
+ul.text{
+	color: rgb(183, 118, 19);
+}
+
+#element{
+	color: rgb(255, 0, 89);
+}
+
+span{
+	color: rgb(255, 242, 0);
+}
+
+.text .info{
+	color: darkblue;
+}
+
+.info .ul{
+	color: rgb(189, 21, 21);
+}
+
+#inf0{
+	color: rgb(0, 255, 179);
+}
+
+.test.site > p{
+	color: black;
+}
+
+ul.test{
+	color: rgb(152, 37, 37);
+}
+
+ul.test.site{
+	color: rgb(0, 4, 226);
+}
+
+div{
+	color: mediumvioletred;
+}
+
+.paragraph ~ p{
+	color: rgb(0, 255, 255);
+}
+
+#prgrph{
+	color: olive;
+}
+
+a{
+	color: crimson;
+}
+
+footer{
+	color: rgb(87, 0, 249);
+}
